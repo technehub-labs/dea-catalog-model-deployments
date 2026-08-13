@@ -1,0 +1,27 @@
+# Metamodel Pointer — Model Deployment
+# Auto-generated from OpenDEAM v0.3.0 (ADR-0003). Do not edit manually.
+metamodel:
+  version: v0.3.0
+  entity_id: dea:entity-model-deployment
+  class_alias: MDP
+  layer: L4
+  building_block: L4-model-operations
+  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=MDP"
+
+entities:
+  - entity_id: dea:entity-model-feedback-signal
+    class_alias: MFS
+    layer: L4
+    building_block: L4-model-operations
+    discriminator: signal_kind
+
+catalog:
+  name: Model Deployment
+  repo: technehub-labs/dea-catalog-model-deployments
+  status: proposed
+
+links:
+  metamodel_repo: https://github.com/technehub-labs/dea-metamodel
+  root_model: https://github.com/technehub-labs/dea-architecture-framework
+  viewer: "https://technehub-labs.github.io/metamodel/?entity=MDP"
+  github: https://github.com/technehub-labs/dea-catalog-model-deployments
