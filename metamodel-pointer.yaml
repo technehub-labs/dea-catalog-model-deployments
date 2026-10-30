@@ -34,6 +34,7 @@ links:
 entities:
   - building_block: L4-model-operations
     class_alias: MFS
+    discriminator: signal_kind
     entity_id: dea:entity-model-feedback-signal
     layer: L4
 
