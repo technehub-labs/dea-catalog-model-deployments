@@ -1,27 +1,40 @@
 # Metamodel Pointer — Model Deployment
-# Auto-generated from OpenDEAM v0.3.0 (ADR-0003). Do not edit manually.
+#
+# Two consumers, two blocks (see FOUNDATIONS §5):
+#   - the top-level identity keys are consumed by the vendored
+#     regenerate_catalog.py to build CATALOG.yaml's catalog block;
+#   - the `metamodel:` allocation block is validated by
+#     dea-architecture-framework validate-against-model.yml
+#     against the pinned root-model ref (v0.8.0), and asserted
+#     locally by scripts/check_pointer.py.
+#
+# Allocation changes go through the root model, not this file.
+id: dea:catalog-model-deployments
+name: Model Deployment
+abbreviation: MDP
+version: 0.1.0
+status: active
+metamodel_version: 1.0.0
+owner: TechNeHub Labs
+description: |
+  A running instance of an AI/ML Model, hosted on an Application Component, with its own version, monitoring state, and health.
 metamodel:
-  version: v0.3.0
-  entity_id: dea:entity-model-deployment
-  class_alias: MDP
-  layer: L4
   building_block: L4-model-operations
-  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=MDP"
-
-entities:
-  - entity_id: dea:entity-model-feedback-signal
-    class_alias: MFS
-    layer: L4
-    building_block: L4-model-operations
-    discriminator: signal_kind
-
-catalog:
-  name: Model Deployment
-  repo: technehub-labs/dea-catalog-model-deployments
-  status: proposed
-
+  class_alias: MDP
+  entity_id: dea:entity-model-deployment
+  layer: L4
+  version: v0.8.0
+  viewer_url: https://technehub-labs.github.io/metamodel/?entity=MDP
 links:
   metamodel_repo: https://github.com/technehub-labs/dea-metamodel
   root_model: https://github.com/technehub-labs/dea-architecture-framework
-  viewer: "https://technehub-labs.github.io/metamodel/?entity=MDP"
+  viewer: https://technehub-labs.github.io/metamodel/?entity=MDP
   github: https://github.com/technehub-labs/dea-catalog-model-deployments
+
+entities:
+  - building_block: L4-model-operations
+    class_alias: MFS
+    discriminator: signal_kind
+    entity_id: dea:entity-model-feedback-signal
+    layer: L4
+

@@ -1,0 +1,27 @@
+catalog:
+  abbreviation: MDP
+  counts:
+    candidates: 0
+    canonical: 0
+    entities: 0
+    open_change_requests: 0
+    research_files: 0
+    retired: 0
+  cross_cutting:
+    change_requests: change-requests/
+    classifications: classifications/
+    contributions_queue: contributions/
+    schemas: schemas/
+    validators: scripts/
+  description: 'A running instance of an AI/ML Model, hosted on an Application Component, with its own version, monitoring state, and health.
+
+    '
+  entities: []
+  id: dea:catalog-model-deployments
+  metamodel_version: 1.0.0
+  name: Model Deployment
+  owner: TechNeHub Labs
+  repository: https://github.com/technehub-labs/dea-catalog-model-deployments.git
+  research_registers: []
+  status: active
+  version: 0.1.0
