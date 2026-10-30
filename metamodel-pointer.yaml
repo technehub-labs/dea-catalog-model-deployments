@@ -32,8 +32,8 @@ links:
   github: https://github.com/technehub-labs/dea-catalog-model-deployments
 
 entities:
-  building_block: L4-model-operations
-  class_alias: MFS
-  entity_id: dea:entity-model-feedback-signal
-  layer: L4
-  
+  - building_block: L4-model-operations
+    class_alias: MFS
+    entity_id: dea:entity-model-feedback-signal
+    layer: L4
+
