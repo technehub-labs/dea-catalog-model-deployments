@@ -1,6 +1,8 @@
-# MDP-CAT-02: Entity Ingestion Groundwork (candidate intake queue + gates)
+# CR-CR-MDP-CAT-02: Entity Ingestion Groundwork (candidate intake queue + gates)
 
 **Status**: Landed (this PR)
+
+**Naming/numbering correction**: this CR landed as `MDP-CAT-02` without the house `CR-` prefix (driver defect, fixed in the programme tooling). Renamed to `CR-MDP-CAT-02` by the naming-correction CR (CR-MDP-CAT-05); content unchanged.
 **Layer**: Catalog tooling (intake workflow)
 **Owner**: Emmanuel A. Otchere
 **Date**: 2026-11-15
