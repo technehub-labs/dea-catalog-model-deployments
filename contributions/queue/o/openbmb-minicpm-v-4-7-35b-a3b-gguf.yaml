@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face openbmb/MiniCPM-V-4.7-35B-A3B-gguf
 name: openbmb/MiniCPM-V-4.7-35B-A3B-gguf
-description: 'openbmb/MiniCPM-V-4.7-35B-A3B-gguf — a published model artifact in the Hugging Face public
-  model registry (pipeline: image-text-to-text; ~414418 downloads; served from https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'openbmb/MiniCPM-V-4.7-35B-A3B-gguf — a published model artifact in the
+  Hugging Face public model registry (pipeline: image-text-to-text; ~414418 downloads;
+  served from https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf (Hugging Face model card; pipeline
-      image-text-to-text; downloads 414418)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf (Hugging
+      Face model card; pipeline image-text-to-text; downloads 414418)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - image-text-to-text
 - openbmb
 slug: openbmb-minicpm-v-4-7-35b-a3b-gguf
+assigned_id: dea:model-deployment-openbmb-minicpm-v-4-7-35b-a3b-gguf-x3um4y
+admitted: '2026-11-14'

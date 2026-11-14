@@ -1,0 +1,38 @@
+id: dea:model-deployment-maximilian228-qwen3-8-flash-next-nvfp4-gptq-stra-a2rxps
+type: ModelDeployment
+name: Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata
+description: 'Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata — a published model
+  artifact in the Hugging Face public model registry (pipeline: text-generation; ~743753
+  downloads; served from https://huggingface.co/Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata).
+  Entity-specific operational fields are provisional candidate values.'
+version: 0.1.0
+lifecycle_status: proposed
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata
+      (Hugging Face model card; pipeline text-generation; downloads 743753)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- text-generation
+- maximilian228

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face RedHatAI/Qwen3.5-9B-FP8-dynamic
 name: RedHatAI/Qwen3.5-9B-FP8-dynamic
-description: 'RedHatAI/Qwen3.5-9B-FP8-dynamic — a published model artifact in the Hugging Face public
-  model registry (pipeline: image-text-to-text; ~460440 downloads; served from https://huggingface.co/RedHatAI/Qwen3.5-9B-FP8-dynamic).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'RedHatAI/Qwen3.5-9B-FP8-dynamic — a published model artifact in the
+  Hugging Face public model registry (pipeline: image-text-to-text; ~460440 downloads;
+  served from https://huggingface.co/RedHatAI/Qwen3.5-9B-FP8-dynamic). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/RedHatAI/Qwen3.5-9B-FP8-dynamic (Hugging Face model card; pipeline
-      image-text-to-text; downloads 460440)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/RedHatAI/Qwen3.5-9B-FP8-dynamic (Hugging Face
+      model card; pipeline image-text-to-text; downloads 460440)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - image-text-to-text
 - redhatai
 slug: redhatai-qwen3-5-9b-fp8-dynamic
+assigned_id: dea:model-deployment-redhatai-qwen3-5-9b-fp8-dynamic-urnxh9
+admitted: '2026-11-14'

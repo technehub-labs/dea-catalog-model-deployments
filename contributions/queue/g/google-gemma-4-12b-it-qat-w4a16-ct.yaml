@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face google/gemma-4-12B-it-qat-w4a16-ct
 name: google/gemma-4-12B-it-qat-w4a16-ct
-description: 'google/gemma-4-12B-it-qat-w4a16-ct — a published model artifact in the Hugging Face public
-  model registry (pipeline: any-to-any; ~657876 downloads; served from https://huggingface.co/google/gemma-4-12B-it-qat-w4a16-ct).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'google/gemma-4-12B-it-qat-w4a16-ct — a published model artifact in the
+  Hugging Face public model registry (pipeline: any-to-any; ~657876 downloads; served
+  from https://huggingface.co/google/gemma-4-12B-it-qat-w4a16-ct). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/google/gemma-4-12B-it-qat-w4a16-ct (Hugging Face model card; pipeline
-      any-to-any; downloads 657876)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/google/gemma-4-12B-it-qat-w4a16-ct (Hugging
+      Face model card; pipeline any-to-any; downloads 657876)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - any-to-any
 - google
 slug: google-gemma-4-12b-it-qat-w4a16-ct
+assigned_id: dea:model-deployment-google-gemma-4-12b-it-qat-w4a16-ct-87y9c9
+admitted: '2026-11-14'

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face w11wo/indonesian-roberta-base-posp-tagger
 name: w11wo/indonesian-roberta-base-posp-tagger
-description: 'w11wo/indonesian-roberta-base-posp-tagger — a published model artifact in the Hugging Face
-  public model registry (pipeline: token-classification; ~3585408 downloads; served from https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger).
+description: 'w11wo/indonesian-roberta-base-posp-tagger — a published model artifact
+  in the Hugging Face public model registry (pipeline: token-classification; ~3585408
+  downloads; served from https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger).
   Entity-specific operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger (Hugging Face model card;
-      pipeline token-classification; downloads 3585408)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger (Hugging
+      Face model card; pipeline token-classification; downloads 3585408)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - token-classification
 - w11wo
 slug: w11wo-indonesian-roberta-base-posp-tagger
+assigned_id: dea:model-deployment-w11wo-indonesian-roberta-base-posp-tagger-cf34x2
+admitted: '2026-11-14'

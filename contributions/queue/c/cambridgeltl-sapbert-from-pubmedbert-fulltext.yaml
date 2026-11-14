@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face cambridgeltl/SapBERT-from-PubMedBERT-fulltext
 name: cambridgeltl/SapBERT-from-PubMedBERT-fulltext
-description: 'cambridgeltl/SapBERT-from-PubMedBERT-fulltext — a published model artifact in the Hugging
-  Face public model registry (pipeline: feature-extraction; ~1391668 downloads; served from https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext).
+description: 'cambridgeltl/SapBERT-from-PubMedBERT-fulltext — a published model artifact
+  in the Hugging Face public model registry (pipeline: feature-extraction; ~1391668
+  downloads; served from https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext).
   Entity-specific operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext (Hugging Face model
-      card; pipeline feature-extraction; downloads 1391668)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext
+      (Hugging Face model card; pipeline feature-extraction; downloads 1391668)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - feature-extraction
 - cambridgeltl
 slug: cambridgeltl-sapbert-from-pubmedbert-fulltext
+assigned_id: dea:model-deployment-cambridgeltl-sapbert-from-pubmedbert-fulltext-ze8rs2
+admitted: '2026-11-14'

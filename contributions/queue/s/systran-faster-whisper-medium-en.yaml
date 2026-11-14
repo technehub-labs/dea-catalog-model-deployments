@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face Systran/faster-whisper-medium.en
 name: Systran/faster-whisper-medium.en
-description: 'Systran/faster-whisper-medium.en — a published model artifact in the Hugging Face public
-  model registry (pipeline: automatic-speech-recognition; ~372333 downloads; served from https://huggingface.co/Systran/faster-whisper-medium.en).
+description: 'Systran/faster-whisper-medium.en — a published model artifact in the
+  Hugging Face public model registry (pipeline: automatic-speech-recognition; ~372333
+  downloads; served from https://huggingface.co/Systran/faster-whisper-medium.en).
   Entity-specific operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/Systran/faster-whisper-medium.en (Hugging Face model card; pipeline
-      automatic-speech-recognition; downloads 372333)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/Systran/faster-whisper-medium.en (Hugging Face
+      model card; pipeline automatic-speech-recognition; downloads 372333)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - automatic-speech-recognition
 - systran
 slug: systran-faster-whisper-medium-en
+assigned_id: dea:model-deployment-systran-faster-whisper-medium-en-ud8jck
+admitted: '2026-11-14'

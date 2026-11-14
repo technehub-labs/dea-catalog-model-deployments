@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face BAAI/bge-small-en-v1.5
 name: BAAI/bge-small-en-v1.5
-description: 'BAAI/bge-small-en-v1.5 — a published model artifact in the Hugging Face public model registry
-  (pipeline: feature-extraction; ~45283709 downloads; served from https://huggingface.co/BAAI/bge-small-en-v1.5).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'BAAI/bge-small-en-v1.5 — a published model artifact in the Hugging Face
+  public model registry (pipeline: feature-extraction; ~45283709 downloads; served
+  from https://huggingface.co/BAAI/bge-small-en-v1.5). Entity-specific operational
+  fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/BAAI/bge-small-en-v1.5 (Hugging Face model card; pipeline feature-extraction;
-      downloads 45283709)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/BAAI/bge-small-en-v1.5 (Hugging Face model card;
+      pipeline feature-extraction; downloads 45283709)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - feature-extraction
 - baai
 slug: baai-bge-small-en-v1-5
+assigned_id: dea:model-deployment-baai-bge-small-en-v1-5-xszknf
+admitted: '2026-11-14'

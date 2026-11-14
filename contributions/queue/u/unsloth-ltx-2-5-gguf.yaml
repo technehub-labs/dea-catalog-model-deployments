@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face unsloth/LTX-2.5-GGUF
 name: unsloth/LTX-2.5-GGUF
-description: 'unsloth/LTX-2.5-GGUF — a published model artifact in the Hugging Face public model registry
-  (pipeline: image-to-video; ~380986 downloads; served from https://huggingface.co/unsloth/LTX-2.5-GGUF).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'unsloth/LTX-2.5-GGUF — a published model artifact in the Hugging Face
+  public model registry (pipeline: image-to-video; ~380986 downloads; served from
+  https://huggingface.co/unsloth/LTX-2.5-GGUF). Entity-specific operational fields
+  are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/unsloth/LTX-2.5-GGUF (Hugging Face model card; pipeline image-to-video;
-      downloads 380986)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/unsloth/LTX-2.5-GGUF (Hugging Face model card;
+      pipeline image-to-video; downloads 380986)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - image-to-video
 - unsloth
 slug: unsloth-ltx-2-5-gguf
+assigned_id: dea:model-deployment-unsloth-ltx-2-5-gguf-v9v2a3
+admitted: '2026-11-14'

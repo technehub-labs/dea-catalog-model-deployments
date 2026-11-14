@@ -1,0 +1,38 @@
+id: dea:model-deployment-nomic-ai-nomic-embed-text-v1-48x9z5
+type: ModelDeployment
+name: nomic-ai/nomic-embed-text-v1
+description: 'nomic-ai/nomic-embed-text-v1 — a published model artifact in the Hugging
+  Face public model registry (pipeline: sentence-similarity; ~1017637 downloads; served
+  from https://huggingface.co/nomic-ai/nomic-embed-text-v1). Entity-specific operational
+  fields are provisional candidate values.'
+version: 0.1.0
+lifecycle_status: proposed
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/nomic-ai/nomic-embed-text-v1 (Hugging Face model
+      card; pipeline sentence-similarity; downloads 1017637)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- sentence-similarity
+- nomic-ai

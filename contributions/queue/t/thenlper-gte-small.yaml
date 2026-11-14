@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face thenlper/gte-small
 name: thenlper/gte-small
-description: 'thenlper/gte-small — a published model artifact in the Hugging Face public model registry
-  (pipeline: sentence-similarity; ~3307837 downloads; served from https://huggingface.co/thenlper/gte-small).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'thenlper/gte-small — a published model artifact in the Hugging Face
+  public model registry (pipeline: sentence-similarity; ~3307837 downloads; served
+  from https://huggingface.co/thenlper/gte-small). Entity-specific operational fields
+  are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/thenlper/gte-small (Hugging Face model card; pipeline sentence-similarity;
-      downloads 3307837)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/thenlper/gte-small (Hugging Face model card;
+      pipeline sentence-similarity; downloads 3307837)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - sentence-similarity
 - thenlper
 slug: thenlper-gte-small
+assigned_id: dea:model-deployment-thenlper-gte-small-49m46f
+admitted: '2026-11-14'

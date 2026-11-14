@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face Lightricks/LTX-2.3
 name: Lightricks/LTX-2.3
-description: 'Lightricks/LTX-2.3 — a published model artifact in the Hugging Face public model registry
-  (pipeline: image-to-video; ~879959 downloads; served from https://huggingface.co/Lightricks/LTX-2.3).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'Lightricks/LTX-2.3 — a published model artifact in the Hugging Face
+  public model registry (pipeline: image-to-video; ~879959 downloads; served from
+  https://huggingface.co/Lightricks/LTX-2.3). Entity-specific operational fields are
+  provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/Lightricks/LTX-2.3 (Hugging Face model card; pipeline image-to-video;
-      downloads 879959)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/Lightricks/LTX-2.3 (Hugging Face model card;
+      pipeline image-to-video; downloads 879959)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - image-to-video
 - lightricks
 slug: lightricks-ltx-2-3
+assigned_id: dea:model-deployment-lightricks-ltx-2-3-ry94bb
+admitted: '2026-11-14'

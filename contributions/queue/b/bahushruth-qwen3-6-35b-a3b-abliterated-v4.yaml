@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face Bahushruth/Qwen3.6-35B-A3B-abliterated-v4
 name: Bahushruth/Qwen3.6-35B-A3B-abliterated-v4
-description: 'Bahushruth/Qwen3.6-35B-A3B-abliterated-v4 — a published model artifact in the Hugging Face
-  public model registry (pipeline: text-generation; ~372371 downloads; served from https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'Bahushruth/Qwen3.6-35B-A3B-abliterated-v4 — a published model artifact
+  in the Hugging Face public model registry (pipeline: text-generation; ~372371 downloads;
+  served from https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4 (Hugging Face model card;
-      pipeline text-generation; downloads 372371)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4 (Hugging
+      Face model card; pipeline text-generation; downloads 372371)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - text-generation
 - bahushruth
 slug: bahushruth-qwen3-6-35b-a3b-abliterated-v4
+assigned_id: dea:model-deployment-bahushruth-qwen3-6-35b-a3b-abliterated-v4-kz4rah
+admitted: '2026-11-14'

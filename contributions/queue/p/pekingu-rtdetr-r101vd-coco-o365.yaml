@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face PekingU/rtdetr_r101vd_coco_o365
 name: PekingU/rtdetr_r101vd_coco_o365
-description: 'PekingU/rtdetr_r101vd_coco_o365 — a published model artifact in the Hugging Face public
-  model registry (pipeline: object-detection; ~1278563 downloads; served from https://huggingface.co/PekingU/rtdetr_r101vd_coco_o365).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'PekingU/rtdetr_r101vd_coco_o365 — a published model artifact in the
+  Hugging Face public model registry (pipeline: object-detection; ~1278563 downloads;
+  served from https://huggingface.co/PekingU/rtdetr_r101vd_coco_o365). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/PekingU/rtdetr_r101vd_coco_o365 (Hugging Face model card; pipeline
-      object-detection; downloads 1278563)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/PekingU/rtdetr_r101vd_coco_o365 (Hugging Face
+      model card; pipeline object-detection; downloads 1278563)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - object-detection
 - pekingu
 slug: pekingu-rtdetr-r101vd-coco-o365
+assigned_id: dea:model-deployment-pekingu-rtdetr-r101vd-coco-o365-u8mdq2
+admitted: '2026-11-14'

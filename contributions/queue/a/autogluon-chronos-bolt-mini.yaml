@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face autogluon/chronos-bolt-mini
 name: autogluon/chronos-bolt-mini
-description: 'autogluon/chronos-bolt-mini — a published model artifact in the Hugging Face public model
-  registry (pipeline: time-series-forecasting; ~586480 downloads; served from https://huggingface.co/autogluon/chronos-bolt-mini).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'autogluon/chronos-bolt-mini — a published model artifact in the Hugging
+  Face public model registry (pipeline: time-series-forecasting; ~586480 downloads;
+  served from https://huggingface.co/autogluon/chronos-bolt-mini). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/autogluon/chronos-bolt-mini (Hugging Face model card; pipeline time-series-forecasting;
-      downloads 586480)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/autogluon/chronos-bolt-mini (Hugging Face model
+      card; pipeline time-series-forecasting; downloads 586480)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - time-series-forecasting
 - autogluon
 slug: autogluon-chronos-bolt-mini
+assigned_id: dea:model-deployment-autogluon-chronos-bolt-mini-4mpq5m
+admitted: '2026-11-14'

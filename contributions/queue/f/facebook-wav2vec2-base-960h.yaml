@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face facebook/wav2vec2-base-960h
 name: facebook/wav2vec2-base-960h
-description: 'facebook/wav2vec2-base-960h — a published model artifact in the Hugging Face public model
-  registry (pipeline: automatic-speech-recognition; ~1781293 downloads; served from https://huggingface.co/facebook/wav2vec2-base-960h).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'facebook/wav2vec2-base-960h — a published model artifact in the Hugging
+  Face public model registry (pipeline: automatic-speech-recognition; ~1781293 downloads;
+  served from https://huggingface.co/facebook/wav2vec2-base-960h). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/facebook/wav2vec2-base-960h (Hugging Face model card; pipeline automatic-speech-recognition;
-      downloads 1781293)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/facebook/wav2vec2-base-960h (Hugging Face model
+      card; pipeline automatic-speech-recognition; downloads 1781293)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - automatic-speech-recognition
 - facebook
 slug: facebook-wav2vec2-base-960h
+assigned_id: dea:model-deployment-facebook-wav2vec2-base-960h-69fz4m
+admitted: '2026-11-14'
