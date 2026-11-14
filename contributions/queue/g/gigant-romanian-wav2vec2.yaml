@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face gigant/romanian-wav2vec2
 name: gigant/romanian-wav2vec2
-description: 'gigant/romanian-wav2vec2 — a published model artifact in the Hugging Face public model registry
-  (pipeline: automatic-speech-recognition; ~1022176 downloads; served from https://huggingface.co/gigant/romanian-wav2vec2).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'gigant/romanian-wav2vec2 — a published model artifact in the Hugging
+  Face public model registry (pipeline: automatic-speech-recognition; ~1022176 downloads;
+  served from https://huggingface.co/gigant/romanian-wav2vec2). Entity-specific operational
+  fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/gigant/romanian-wav2vec2 (Hugging Face model card; pipeline automatic-speech-recognition;
-      downloads 1022176)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/gigant/romanian-wav2vec2 (Hugging Face model
+      card; pipeline automatic-speech-recognition; downloads 1022176)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - automatic-speech-recognition
 - gigant
 slug: gigant-romanian-wav2vec2
+assigned_id: dea:model-deployment-gigant-romanian-wav2vec2-6q2ejw
+admitted: '2026-11-14'

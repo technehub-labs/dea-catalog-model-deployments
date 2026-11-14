@@ -1,0 +1,38 @@
+id: dea:model-deployment-cl-nagoya-ruri-v3-310m-7524e8
+type: ModelDeployment
+name: cl-nagoya/ruri-v3-310m
+description: 'cl-nagoya/ruri-v3-310m — a published model artifact in the Hugging Face
+  public model registry (pipeline: sentence-similarity; ~669564 downloads; served
+  from https://huggingface.co/cl-nagoya/ruri-v3-310m). Entity-specific operational
+  fields are provisional candidate values.'
+version: 0.1.0
+lifecycle_status: proposed
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/cl-nagoya/ruri-v3-310m (Hugging Face model card;
+      pipeline sentence-similarity; downloads 669564)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- sentence-similarity
+- cl-nagoya

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face prism-ml/Ternary-Bonsai-2-2B-gguf
 name: prism-ml/Ternary-Bonsai-2-2B-gguf
-description: 'prism-ml/Ternary-Bonsai-2-2B-gguf — a published model artifact in the Hugging Face public
-  model registry (pipeline: image-text-to-text; ~1263788 downloads; served from https://huggingface.co/prism-ml/Ternary-Bonsai-2-2B-gguf).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'prism-ml/Ternary-Bonsai-2-2B-gguf — a published model artifact in the
+  Hugging Face public model registry (pipeline: image-text-to-text; ~1263788 downloads;
+  served from https://huggingface.co/prism-ml/Ternary-Bonsai-2-2B-gguf). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/prism-ml/Ternary-Bonsai-2-2B-gguf (Hugging Face model card; pipeline
-      image-text-to-text; downloads 1263788)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/prism-ml/Ternary-Bonsai-2-2B-gguf (Hugging Face
+      model card; pipeline image-text-to-text; downloads 1263788)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - image-text-to-text
 - prism-ml
 slug: prism-ml-ternary-bonsai-2-2b-gguf
+assigned_id: dea:model-deployment-prism-ml-ternary-bonsai-2-2b-gguf-2y2han
+admitted: '2026-11-14'

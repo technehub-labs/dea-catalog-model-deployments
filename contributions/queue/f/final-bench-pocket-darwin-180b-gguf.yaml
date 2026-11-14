@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face FINAL-Bench/POCKET-Darwin-180B-GGUF
 name: FINAL-Bench/POCKET-Darwin-180B-GGUF
-description: 'FINAL-Bench/POCKET-Darwin-180B-GGUF — a published model artifact in the Hugging Face public
-  model registry (pipeline: text-generation; ~526150 downloads; served from https://huggingface.co/FINAL-Bench/POCKET-Darwin-180B-GGUF).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'FINAL-Bench/POCKET-Darwin-180B-GGUF — a published model artifact in
+  the Hugging Face public model registry (pipeline: text-generation; ~526150 downloads;
+  served from https://huggingface.co/FINAL-Bench/POCKET-Darwin-180B-GGUF). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/FINAL-Bench/POCKET-Darwin-180B-GGUF (Hugging Face model card; pipeline
-      text-generation; downloads 526150)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/FINAL-Bench/POCKET-Darwin-180B-GGUF (Hugging
+      Face model card; pipeline text-generation; downloads 526150)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - text-generation
 - final-bench
 slug: final-bench-pocket-darwin-180b-gguf
+assigned_id: dea:model-deployment-final-bench-pocket-darwin-180b-gguf-wyqa4e
+admitted: '2026-11-14'

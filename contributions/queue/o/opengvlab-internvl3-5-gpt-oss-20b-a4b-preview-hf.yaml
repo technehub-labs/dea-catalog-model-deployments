@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview-HF
 name: OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview-HF
-description: 'OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview-HF — a published model artifact in the Hugging
-  Face public model registry (pipeline: image-text-to-text; ~661917 downloads; served from https://huggingface.co/OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview-HF).
+description: 'OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview-HF — a published model
+  artifact in the Hugging Face public model registry (pipeline: image-text-to-text;
+  ~661917 downloads; served from https://huggingface.co/OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview-HF).
   Entity-specific operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview-HF (Hugging Face model
-      card; pipeline image-text-to-text; downloads 661917)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview-HF
+      (Hugging Face model card; pipeline image-text-to-text; downloads 661917)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - image-text-to-text
 - opengvlab
 slug: opengvlab-internvl3-5-gpt-oss-20b-a4b-preview-hf
+assigned_id: dea:model-deployment-opengvlab-internvl3-5-gpt-oss-20b-a4b-preview-hf-knu9ws
+admitted: '2026-11-14'

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata
 name: Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata
-description: 'Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata — a published model artifact in the Hugging
-  Face public model registry (pipeline: text-generation; ~743753 downloads; served from https://huggingface.co/Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata).
+description: 'Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata — a published model
+  artifact in the Hugging Face public model registry (pipeline: text-generation; ~743753
+  downloads; served from https://huggingface.co/Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata).
   Entity-specific operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata (Hugging Face
-      model card; pipeline text-generation; downloads 743753)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/Maximilian228/Qwen3.8-Flash-Next-NVFP4-GPTQ-Strata
+      (Hugging Face model card; pipeline text-generation; downloads 743753)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - text-generation
 - maximilian228
 slug: maximilian228-qwen3-8-flash-next-nvfp4-gptq-stra
+assigned_id: dea:model-deployment-maximilian228-qwen3-8-flash-next-nvfp4-gptq-stra-a2rxps
+admitted: '2026-11-14'

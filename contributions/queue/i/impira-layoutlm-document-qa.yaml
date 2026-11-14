@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face impira/layoutlm-document-qa
 name: impira/layoutlm-document-qa
-description: 'impira/layoutlm-document-qa — a published model artifact in the Hugging Face public model
-  registry (pipeline: document-question-answering; ~362838 downloads; served from https://huggingface.co/impira/layoutlm-document-qa).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'impira/layoutlm-document-qa — a published model artifact in the Hugging
+  Face public model registry (pipeline: document-question-answering; ~362838 downloads;
+  served from https://huggingface.co/impira/layoutlm-document-qa). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/impira/layoutlm-document-qa (Hugging Face model card; pipeline document-question-answering;
-      downloads 362838)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/impira/layoutlm-document-qa (Hugging Face model
+      card; pipeline document-question-answering; downloads 362838)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - document-question-answering
 - impira
 slug: impira-layoutlm-document-qa
+assigned_id: dea:model-deployment-impira-layoutlm-document-qa-czc62y
+admitted: '2026-11-14'

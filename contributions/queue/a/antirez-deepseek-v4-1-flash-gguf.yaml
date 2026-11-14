@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face antirez/deepseek-v4.1-flash-gguf
 name: antirez/deepseek-v4.1-flash-gguf
-description: 'antirez/deepseek-v4.1-flash-gguf — a published model artifact in the Hugging Face public
-  model registry (pipeline: unspecified; ~808948 downloads; served from https://huggingface.co/antirez/deepseek-v4.1-flash-gguf).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'antirez/deepseek-v4.1-flash-gguf — a published model artifact in the
+  Hugging Face public model registry (pipeline: unspecified; ~808948 downloads; served
+  from https://huggingface.co/antirez/deepseek-v4.1-flash-gguf). Entity-specific operational
+  fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/antirez/deepseek-v4.1-flash-gguf (Hugging Face model card; pipeline
-      unspecified; downloads 808948)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/antirez/deepseek-v4.1-flash-gguf (Hugging Face
+      model card; pipeline unspecified; downloads 808948)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - unspecified
 - antirez
 slug: antirez-deepseek-v4-1-flash-gguf
+assigned_id: dea:model-deployment-antirez-deepseek-v4-1-flash-gguf-4p5g7u
+admitted: '2026-11-14'

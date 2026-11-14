@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face lpiccinelli/unidepth-v2-vitl14
 name: lpiccinelli/unidepth-v2-vitl14
-description: 'lpiccinelli/unidepth-v2-vitl14 — a published model artifact in the Hugging Face public model
-  registry (pipeline: unspecified; ~616502 downloads; served from https://huggingface.co/lpiccinelli/unidepth-v2-vitl14).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'lpiccinelli/unidepth-v2-vitl14 — a published model artifact in the Hugging
+  Face public model registry (pipeline: unspecified; ~616502 downloads; served from
+  https://huggingface.co/lpiccinelli/unidepth-v2-vitl14). Entity-specific operational
+  fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/lpiccinelli/unidepth-v2-vitl14 (Hugging Face model card; pipeline
-      unspecified; downloads 616502)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/lpiccinelli/unidepth-v2-vitl14 (Hugging Face
+      model card; pipeline unspecified; downloads 616502)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - unspecified
 - lpiccinelli
 slug: lpiccinelli-unidepth-v2-vitl14
+assigned_id: dea:model-deployment-lpiccinelli-unidepth-v2-vitl14-4sqars
+admitted: '2026-11-14'

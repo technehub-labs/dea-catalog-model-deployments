@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face IDEA-Research/grounding-dino-base
 name: IDEA-Research/grounding-dino-base
-description: 'IDEA-Research/grounding-dino-base — a published model artifact in the Hugging Face public
-  model registry (pipeline: zero-shot-object-detection; ~1526629 downloads; served from https://huggingface.co/IDEA-Research/grounding-dino-base).
+description: 'IDEA-Research/grounding-dino-base — a published model artifact in the
+  Hugging Face public model registry (pipeline: zero-shot-object-detection; ~1526629
+  downloads; served from https://huggingface.co/IDEA-Research/grounding-dino-base).
   Entity-specific operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/IDEA-Research/grounding-dino-base (Hugging Face model card; pipeline
-      zero-shot-object-detection; downloads 1526629)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/IDEA-Research/grounding-dino-base (Hugging Face
+      model card; pipeline zero-shot-object-detection; downloads 1526629)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - zero-shot-object-detection
 - idea-research
 slug: idea-research-grounding-dino-base
+assigned_id: dea:model-deployment-idea-research-grounding-dino-base-8bab2b
+admitted: '2026-11-14'

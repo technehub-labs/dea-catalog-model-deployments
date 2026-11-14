@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face intfloat/multilingual-e5-base
 name: intfloat/multilingual-e5-base
-description: 'intfloat/multilingual-e5-base — a published model artifact in the Hugging Face public model
-  registry (pipeline: sentence-similarity; ~4808247 downloads; served from https://huggingface.co/intfloat/multilingual-e5-base).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'intfloat/multilingual-e5-base — a published model artifact in the Hugging
+  Face public model registry (pipeline: sentence-similarity; ~4808247 downloads; served
+  from https://huggingface.co/intfloat/multilingual-e5-base). Entity-specific operational
+  fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/intfloat/multilingual-e5-base (Hugging Face model card; pipeline
-      sentence-similarity; downloads 4808247)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/intfloat/multilingual-e5-base (Hugging Face
+      model card; pipeline sentence-similarity; downloads 4808247)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - sentence-similarity
 - intfloat
 slug: intfloat-multilingual-e5-base
+assigned_id: dea:model-deployment-intfloat-multilingual-e5-base-wxhght
+admitted: '2026-11-14'

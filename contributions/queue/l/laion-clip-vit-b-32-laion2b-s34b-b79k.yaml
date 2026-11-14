@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face laion/CLIP-ViT-B-32-laion2B-s34B-b79K
 name: laion/CLIP-ViT-B-32-laion2B-s34B-b79K
-description: 'laion/CLIP-ViT-B-32-laion2B-s34B-b79K — a published model artifact in the Hugging Face public
-  model registry (pipeline: zero-shot-image-classification; ~4983547 downloads; served from https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K).
+description: 'laion/CLIP-ViT-B-32-laion2B-s34B-b79K — a published model artifact in
+  the Hugging Face public model registry (pipeline: zero-shot-image-classification;
+  ~4983547 downloads; served from https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K).
   Entity-specific operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K (Hugging Face model card;
-      pipeline zero-shot-image-classification; downloads 4983547)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K (Hugging
+      Face model card; pipeline zero-shot-image-classification; downloads 4983547)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - zero-shot-image-classification
 - laion
 slug: laion-clip-vit-b-32-laion2b-s34b-b79k
+assigned_id: dea:model-deployment-laion-clip-vit-b-32-laion2b-s34b-b79k-34b9q2
+admitted: '2026-11-14'

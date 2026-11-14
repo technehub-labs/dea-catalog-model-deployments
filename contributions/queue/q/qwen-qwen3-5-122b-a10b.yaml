@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face Qwen/Qwen3.5-122B-A10B
 name: Qwen/Qwen3.5-122B-A10B
-description: 'Qwen/Qwen3.5-122B-A10B — a published model artifact in the Hugging Face public model registry
-  (pipeline: image-text-to-text; ~792483 downloads; served from https://huggingface.co/Qwen/Qwen3.5-122B-A10B).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'Qwen/Qwen3.5-122B-A10B — a published model artifact in the Hugging Face
+  public model registry (pipeline: image-text-to-text; ~792483 downloads; served from
+  https://huggingface.co/Qwen/Qwen3.5-122B-A10B). Entity-specific operational fields
+  are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/Qwen/Qwen3.5-122B-A10B (Hugging Face model card; pipeline image-text-to-text;
-      downloads 792483)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/Qwen/Qwen3.5-122B-A10B (Hugging Face model card;
+      pipeline image-text-to-text; downloads 792483)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - image-text-to-text
 - qwen
 slug: qwen-qwen3-5-122b-a10b
+assigned_id: dea:model-deployment-qwen-qwen3-5-122b-a10b-xvtmtm
+admitted: '2026-11-14'

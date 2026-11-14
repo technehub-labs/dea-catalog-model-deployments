@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit
 name: farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit
-description: 'farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit — a published model artifact in the Hugging
-  Face public model registry (pipeline: text-generation; ~3870057 downloads; served from https://huggingface.co/farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit).
+description: 'farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit — a published model artifact
+  in the Hugging Face public model registry (pipeline: text-generation; ~3870057 downloads;
+  served from https://huggingface.co/farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit).
   Entity-specific operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit (Hugging Face model
-      card; pipeline text-generation; downloads 3870057)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit
+      (Hugging Face model card; pipeline text-generation; downloads 3870057)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - text-generation
 - farbodtavakkoli
 slug: farbodtavakkoli-otel-2-0-decision-26b-a4b-4bit
+assigned_id: dea:model-deployment-farbodtavakkoli-otel-2-0-decision-26b-a4b-4bit-zhz3a3
+admitted: '2026-11-14'

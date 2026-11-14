@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face Qdrant/multilingual-e5-large-onnx
 name: Qdrant/multilingual-e5-large-onnx
-description: 'Qdrant/multilingual-e5-large-onnx — a published model artifact in the Hugging Face public
-  model registry (pipeline: sentence-similarity; ~1203858 downloads; served from https://huggingface.co/Qdrant/multilingual-e5-large-onnx).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'Qdrant/multilingual-e5-large-onnx — a published model artifact in the
+  Hugging Face public model registry (pipeline: sentence-similarity; ~1203858 downloads;
+  served from https://huggingface.co/Qdrant/multilingual-e5-large-onnx). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/Qdrant/multilingual-e5-large-onnx (Hugging Face model card; pipeline
-      sentence-similarity; downloads 1203858)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/Qdrant/multilingual-e5-large-onnx (Hugging Face
+      model card; pipeline sentence-similarity; downloads 1203858)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - sentence-similarity
 - qdrant
 slug: qdrant-multilingual-e5-large-onnx
+assigned_id: dea:model-deployment-qdrant-multilingual-e5-large-onnx-hh7yp6
+admitted: '2026-11-14'

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face mistralai/Mistral-7B-Instruct-v0.3
 name: mistralai/Mistral-7B-Instruct-v0.3
-description: 'mistralai/Mistral-7B-Instruct-v0.3 — a published model artifact in the Hugging Face public
-  model registry (pipeline: unspecified; ~1800612 downloads; served from https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'mistralai/Mistral-7B-Instruct-v0.3 — a published model artifact in the
+  Hugging Face public model registry (pipeline: unspecified; ~1800612 downloads; served
+  from https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3). Entity-specific
+  operational fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3 (Hugging Face model card; pipeline
-      unspecified; downloads 1800612)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3 (Hugging
+      Face model card; pipeline unspecified; downloads 1800612)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - unspecified
 - mistralai
 slug: mistralai-mistral-7b-instruct-v0-3
+assigned_id: dea:model-deployment-mistralai-mistral-7b-instruct-v0-3-gfafwa
+admitted: '2026-11-14'

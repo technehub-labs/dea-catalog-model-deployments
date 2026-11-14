@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face Tongyi-MAI/Z-Image-Turbo
 name: Tongyi-MAI/Z-Image-Turbo
-description: 'Tongyi-MAI/Z-Image-Turbo — a published model artifact in the Hugging Face public model registry
-  (pipeline: text-to-image; ~775700 downloads; served from https://huggingface.co/Tongyi-MAI/Z-Image-Turbo).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'Tongyi-MAI/Z-Image-Turbo — a published model artifact in the Hugging
+  Face public model registry (pipeline: text-to-image; ~775700 downloads; served from
+  https://huggingface.co/Tongyi-MAI/Z-Image-Turbo). Entity-specific operational fields
+  are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/Tongyi-MAI/Z-Image-Turbo (Hugging Face model card; pipeline text-to-image;
-      downloads 775700)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/Tongyi-MAI/Z-Image-Turbo (Hugging Face model
+      card; pipeline text-to-image; downloads 775700)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - text-to-image
 - tongyi-mai
 slug: tongyi-mai-z-image-turbo
+assigned_id: dea:model-deployment-tongyi-mai-z-image-turbo-au66ea
+admitted: '2026-11-14'

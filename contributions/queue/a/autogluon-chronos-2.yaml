@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face autogluon/chronos-2
 name: autogluon/chronos-2
-description: 'autogluon/chronos-2 — a published model artifact in the Hugging Face public model registry
-  (pipeline: time-series-forecasting; ~33652469 downloads; served from https://huggingface.co/autogluon/chronos-2).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'autogluon/chronos-2 — a published model artifact in the Hugging Face
+  public model registry (pipeline: time-series-forecasting; ~33652469 downloads; served
+  from https://huggingface.co/autogluon/chronos-2). Entity-specific operational fields
+  are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/autogluon/chronos-2 (Hugging Face model card; pipeline time-series-forecasting;
-      downloads 33652469)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/autogluon/chronos-2 (Hugging Face model card;
+      pipeline time-series-forecasting; downloads 33652469)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - time-series-forecasting
 - autogluon
 slug: autogluon-chronos-2
+assigned_id: dea:model-deployment-autogluon-chronos-2-ga3rrj
+admitted: '2026-11-14'

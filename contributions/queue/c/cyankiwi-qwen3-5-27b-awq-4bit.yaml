@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: hf-deployments.json
 source_ref: Hugging Face cyankiwi/Qwen3.5-27B-AWQ-4bit
 name: cyankiwi/Qwen3.5-27B-AWQ-4bit
-description: 'cyankiwi/Qwen3.5-27B-AWQ-4bit — a published model artifact in the Hugging Face public model
-  registry (pipeline: image-text-to-text; ~639987 downloads; served from https://huggingface.co/cyankiwi/Qwen3.5-27B-AWQ-4bit).
-  Entity-specific operational fields are provisional candidate values.'
+description: 'cyankiwi/Qwen3.5-27B-AWQ-4bit — a published model artifact in the Hugging
+  Face public model registry (pipeline: image-text-to-text; ~639987 downloads; served
+  from https://huggingface.co/cyankiwi/Qwen3.5-27B-AWQ-4bit). Entity-specific operational
+  fields are provisional candidate values.'
 deployment_kind: api-endpoint
 environment: production
 evidence:
   sources:
   - kind: published-document
-    reference: https://huggingface.co/cyankiwi/Qwen3.5-27B-AWQ-4bit (Hugging Face model card; pipeline
-      image-text-to-text; downloads 639987)
-  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
-    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
-    environment) are provisional programmatic mappings subject to canonical-admission review.
+    reference: https://huggingface.co/cyankiwi/Qwen3.5-27B-AWQ-4bit (Hugging Face
+      model card; pipeline image-text-to-text; downloads 639987)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
 tags:
 - image-text-to-text
 - cyankiwi
 slug: cyankiwi-qwen3-5-27b-awq-4bit
+assigned_id: dea:model-deployment-cyankiwi-qwen3-5-27b-awq-4bit-uw5xks
+admitted: '2026-11-14'
