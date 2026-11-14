@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face realrebelai/MiniMax-H3_GGUFs
+name: realrebelai/MiniMax-H3_GGUFs
+description: 'realrebelai/MiniMax-H3_GGUFs — a published model artifact in the Hugging Face public model
+  registry (pipeline: unspecified; ~413650 downloads; served from https://huggingface.co/realrebelai/MiniMax-H3_GGUFs).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/realrebelai/MiniMax-H3_GGUFs (Hugging Face model card; pipeline
+      unspecified; downloads 413650)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- unspecified
+- realrebelai
+slug: realrebelai-minimax-h3-ggufs

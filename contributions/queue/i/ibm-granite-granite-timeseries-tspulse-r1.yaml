@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face ibm-granite/granite-timeseries-tspulse-r1
+name: ibm-granite/granite-timeseries-tspulse-r1
+description: 'ibm-granite/granite-timeseries-tspulse-r1 — a published model artifact in the Hugging Face
+  public model registry (pipeline: unspecified; ~793104 downloads; served from https://huggingface.co/ibm-granite/granite-timeseries-tspulse-r1).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/ibm-granite/granite-timeseries-tspulse-r1 (Hugging Face model card;
+      pipeline unspecified; downloads 793104)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- unspecified
+- ibm-granite
+slug: ibm-granite-granite-timeseries-tspulse-r1

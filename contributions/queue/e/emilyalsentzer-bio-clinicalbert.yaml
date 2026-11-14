@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face emilyalsentzer/Bio_ClinicalBERT
+name: emilyalsentzer/Bio_ClinicalBERT
+description: 'emilyalsentzer/Bio_ClinicalBERT — a published model artifact in the Hugging Face public
+  model registry (pipeline: fill-mask; ~2377810 downloads; served from https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT (Hugging Face model card; pipeline
+      fill-mask; downloads 2377810)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- fill-mask
+- emilyalsentzer
+slug: emilyalsentzer-bio-clinicalbert

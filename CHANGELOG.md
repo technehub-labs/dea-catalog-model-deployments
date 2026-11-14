@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### MDP-CAT-03: ModelDeployment Candidate Corpus
+
+1000 ModelDeployment candidate submissions landed in the contribution queue (sharded, gate-CONFORMANT) from 1 evidence bank(s); published prose + evidence citations + source_refs; provenance in ingestion/manifest.yaml. No catalog entities change; admission follows in MDP-CAT-04+.
+
 ### MDP-CAT-02: Entity Ingestion Groundwork (candidate intake queue + gates)
 
 Gated intake workflow stood up: contribution queue + blocking queue gate (`scripts/check_contributions.py`, self-deriving from the projected schema) + admission tool (`scripts/admit_entity.py`: content-derived ids, collision-checked, candidates/ subtrees at `lifecycle_status: proposed` / v0.1.0) + intake template and process docs. CI: queue gate added as a blocking step; metaframework pin v2.6.0 → v2.8.0 with the shard-aware toolchain re-vendored from the v2.8.0 release (cmp'd). No records admitted by this CR.

@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF
+name: ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF
+description: 'ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF — a published model artifact in the Hugging Face public
+  model registry (pipeline: image-text-to-text; ~1353284 downloads; served from https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF (Hugging Face model card; pipeline
+      image-text-to-text; downloads 1353284)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- image-text-to-text
+- ista-daslab
+slug: ista-daslab-qwen3-8-27b-gsq-rco-gguf

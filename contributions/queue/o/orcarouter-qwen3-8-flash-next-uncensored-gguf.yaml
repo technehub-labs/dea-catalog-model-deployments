@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF
+name: orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF
+description: 'orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF — a published model artifact in the Hugging
+  Face public model registry (pipeline: image-text-to-text; ~791888 downloads; served from https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF (Hugging Face model
+      card; pipeline image-text-to-text; downloads 791888)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- image-text-to-text
+- orcarouter
+slug: orcarouter-qwen3-8-flash-next-uncensored-gguf

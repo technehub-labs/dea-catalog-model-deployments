@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face mesolitica/wav2vec2-xls-r-300m-mixed
+name: mesolitica/wav2vec2-xls-r-300m-mixed
+description: 'mesolitica/wav2vec2-xls-r-300m-mixed — a published model artifact in the Hugging Face public
+  model registry (pipeline: automatic-speech-recognition; ~714822 downloads; served from https://huggingface.co/mesolitica/wav2vec2-xls-r-300m-mixed).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/mesolitica/wav2vec2-xls-r-300m-mixed (Hugging Face model card; pipeline
+      automatic-speech-recognition; downloads 714822)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- automatic-speech-recognition
+- mesolitica
+slug: mesolitica-wav2vec2-xls-r-300m-mixed

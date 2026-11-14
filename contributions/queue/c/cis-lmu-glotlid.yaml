@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face cis-lmu/glotlid
+name: cis-lmu/glotlid
+description: 'cis-lmu/glotlid — a published model artifact in the Hugging Face public model registry (pipeline:
+  text-classification; ~656686 downloads; served from https://huggingface.co/cis-lmu/glotlid). Entity-specific
+  operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/cis-lmu/glotlid (Hugging Face model card; pipeline text-classification;
+      downloads 656686)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- text-classification
+- cis-lmu
+slug: cis-lmu-glotlid

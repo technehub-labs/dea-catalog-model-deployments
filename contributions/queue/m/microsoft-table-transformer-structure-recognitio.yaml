@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face microsoft/table-transformer-structure-recognition
+name: microsoft/table-transformer-structure-recognition
+description: 'microsoft/table-transformer-structure-recognition — a published model artifact in the Hugging
+  Face public model registry (pipeline: object-detection; ~1266044 downloads; served from https://huggingface.co/microsoft/table-transformer-structure-recognition).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/microsoft/table-transformer-structure-recognition (Hugging Face
+      model card; pipeline object-detection; downloads 1266044)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- object-detection
+- microsoft
+slug: microsoft-table-transformer-structure-recognitio

@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face bartowski/Qwen2.5-32B-Instruct-GGUF
+name: bartowski/Qwen2.5-32B-Instruct-GGUF
+description: 'bartowski/Qwen2.5-32B-Instruct-GGUF — a published model artifact in the Hugging Face public
+  model registry (pipeline: text-generation; ~596743 downloads; served from https://huggingface.co/bartowski/Qwen2.5-32B-Instruct-GGUF).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/bartowski/Qwen2.5-32B-Instruct-GGUF (Hugging Face model card; pipeline
+      text-generation; downloads 596743)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- text-generation
+- bartowski
+slug: bartowski-qwen2-5-32b-instruct-gguf

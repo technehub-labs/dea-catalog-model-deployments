@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face timm/vit_small_patch14_dinov2.lvd142m
+name: timm/vit_small_patch14_dinov2.lvd142m
+description: 'timm/vit_small_patch14_dinov2.lvd142m — a published model artifact in the Hugging Face public
+  model registry (pipeline: image-feature-extraction; ~1311507 downloads; served from https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m (Hugging Face model card;
+      pipeline image-feature-extraction; downloads 1311507)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- image-feature-extraction
+- timm
+slug: timm-vit-small-patch14-dinov2-lvd142m
