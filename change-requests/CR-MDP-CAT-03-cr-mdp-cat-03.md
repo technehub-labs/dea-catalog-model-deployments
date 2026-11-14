@@ -1,6 +1,8 @@
-# MDP-CAT-03: ModelDeployment Candidate Corpus
+# CR-CR-MDP-CAT-03: ModelDeployment Candidate Corpus
 
 **Status**: Landed (this PR)
+
+**Naming/numbering correction**: this CR landed as `MDP-CAT-03` without the house `CR-` prefix (driver defect, fixed in the programme tooling). Renamed to `CR-MDP-CAT-03` by the naming-correction CR (CR-MDP-CAT-05); content unchanged.
 **Layer**: Catalog content (candidate corpus intake)
 **Owner**: Emmanuel A. Otchere
 **Date**: 2026-11-15

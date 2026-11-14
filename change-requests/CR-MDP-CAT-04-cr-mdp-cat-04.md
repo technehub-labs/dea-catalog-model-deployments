@@ -1,6 +1,8 @@
-# MDP-CAT-04: ModelDeployment Candidate Admission Batch 01 (0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF … ZhengPeng7/BiRefNet)
+# CR-CR-MDP-CAT-04: ModelDeployment Candidate Admission Batch 01 (0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF … ZhengPeng7/BiRefNet)
 
 **Status**: Landed (this PR)
+
+**Naming/numbering correction**: this CR landed as `MDP-CAT-04` without the house `CR-` prefix (driver defect, fixed in the programme tooling). Renamed to `CR-MDP-CAT-04` by the naming-correction CR (CR-MDP-CAT-05); content unchanged.
 **Layer**: Catalog content (candidate corpus admission)
 **Owner**: Emmanuel A. Otchere
 **Date**: 2026-11-15
