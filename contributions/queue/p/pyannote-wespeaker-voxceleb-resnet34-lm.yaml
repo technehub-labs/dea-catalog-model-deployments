@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face pyannote/wespeaker-voxceleb-resnet34-LM
+name: pyannote/wespeaker-voxceleb-resnet34-LM
+description: 'pyannote/wespeaker-voxceleb-resnet34-LM — a published model artifact in the Hugging Face
+  public model registry (pipeline: unspecified; ~5845992 downloads; served from https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM (Hugging Face model card;
+      pipeline unspecified; downloads 5845992)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- unspecified
+- pyannote
+slug: pyannote-wespeaker-voxceleb-resnet34-lm

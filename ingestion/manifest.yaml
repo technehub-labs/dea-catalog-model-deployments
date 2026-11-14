@@ -1,0 +1,18 @@
+# Ingestion manifest — ModelDeployment candidate corpus (MDP-CAT-03)
+# Records are candidates only (queue status: queued; admitted at
+# lifecycle_status: proposed / version 0.1.0 by the gated workflow).
+
+generated: '2026-11-15'
+generated_by: ingest-kit generate_queue.py (catalog population programme)
+submitted_by: Emmanuel A. Otchere
+record_count: 1000
+sources:
+- bank: hf-deployments.json
+  source: "Hugging Face public model registry (api/models by downloads)"
+  url: "https://huggingface.co/api/models"
+  published: "https://huggingface.co/models"
+  retrieved: '2026-11-15'
+  sha256: 5b1893704c0527b2619d2b7473fa283065b0d5cd8629819a50bfe494a8121d5d
+  records: 1000
+queue_layout: contributions/queue/<shard>/<slug>.yaml (entity-storage-layout §4;
+  letter shards; slug prefixes chosen to keep every shard under the 800-entry cap)

@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face unsloth/GLM-5.3-Flash-GGUF
+name: unsloth/GLM-5.3-Flash-GGUF
+description: 'unsloth/GLM-5.3-Flash-GGUF — a published model artifact in the Hugging Face public model
+  registry (pipeline: text-generation; ~752388 downloads; served from https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF (Hugging Face model card; pipeline text-generation;
+      downloads 752388)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- text-generation
+- unsloth
+slug: unsloth-glm-5-3-flash-gguf

@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face zai-org/GLM-5.3-Flash
+name: zai-org/GLM-5.3-Flash
+description: 'zai-org/GLM-5.3-Flash — a published model artifact in the Hugging Face public model registry
+  (pipeline: image-text-to-text; ~6382979 downloads; served from https://huggingface.co/zai-org/GLM-5.3-Flash).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/zai-org/GLM-5.3-Flash (Hugging Face model card; pipeline image-text-to-text;
+      downloads 6382979)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- image-text-to-text
+- zai-org
+slug: zai-org-glm-5-3-flash

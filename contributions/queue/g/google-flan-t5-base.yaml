@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: hf-deployments.json
+source_ref: Hugging Face google/flan-t5-base
+name: google/flan-t5-base
+description: 'google/flan-t5-base — a published model artifact in the Hugging Face public model registry
+  (pipeline: unspecified; ~705345 downloads; served from https://huggingface.co/google/flan-t5-base).
+  Entity-specific operational fields are provisional candidate values.'
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/google/flan-t5-base (Hugging Face model card; pipeline unspecified;
+      downloads 705345)
+  rationale: Cited from the Hugging Face public model registry (API listing). The artifact is published
+    and machine-verifiable at the cited model card URL. Entity-specific operational values (deployment_kind,
+    environment) are provisional programmatic mappings subject to canonical-admission review.
+tags:
+- unspecified
+- google
+slug: google-flan-t5-base
