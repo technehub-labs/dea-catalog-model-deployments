@@ -1,0 +1,47 @@
+id: dea:model-deployment-qwen-qwen3-14b-t8vnn3
+type: ModelDeployment
+name: Qwen/Qwen3-14B
+description: 'Qwen/Qwen3-14B — a published model artifact in the Hugging Face public
+  model registry (pipeline: text-generation; ~13025679 downloads; served from https://huggingface.co/Qwen/Qwen3-14B).
+  Entity-specific operational fields are provisional candidate values.'
+version: 0.1.0
+lifecycle_status: active
+deployment_kind: api-endpoint
+environment: production
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://huggingface.co/Qwen/Qwen3-14B (Hugging Face model card; pipeline
+      text-generation; downloads 13025679)
+  rationale: Cited from the Hugging Face public model registry (API listing). The
+    artifact is published and machine-verifiable at the cited model card URL. Entity-specific
+    operational values (deployment_kind, environment) are provisional programmatic
+    mappings subject to canonical-admission review.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- text-generation
+- qwen
